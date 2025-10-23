@@ -1,0 +1,38 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django local settings / secrets
+*.env
+*.local
+*.secret
+
+# Database files
+db.sqlite3
+*.sqlite3
+
+# Migrations (optional: some include them, some not)
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Media / uploads
+media/
+uploads/
+
+# Static files (if collected)
+staticfiles/
+
+# Pytest cache / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs
+*.log

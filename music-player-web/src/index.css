@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+    --color-bg-one: #D5D9E4;
+    --color-bg-two: #C7B1F1;
+    --color-main: #E9E9F1;
+    --color-text: #72648B;
+    --color-bright: #684CA5;
+    --color-dark: #5C2575;
+}
+
+#root { height: 100%; }
+
+html,
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+html {
+    overflow: hidden;
+}
+
+@keyframes wiggle {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.rotating {
+  animation: wiggle 7s infinite linear;
+}
